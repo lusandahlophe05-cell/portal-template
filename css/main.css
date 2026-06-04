@@ -6,6 +6,7 @@
   --color-accent-secondary: #DFE7FD;
   --color-text-primary: #333333;
   --color-card-primary:#CDDAFD; 
+  --color-link-primary: #7A3A42;
 } 
 html {
     background-color: var(--color-background-primary);
@@ -50,13 +51,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:var(--color-link-primary);
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: var(--color-link-primary);
+    background-color: var(--color-accent-primary);
     text-decoration: none;
 }
 
