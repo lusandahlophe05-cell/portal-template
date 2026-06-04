@@ -1,5 +1,12 @@
 /* Global rules */
-
+:root{
+  --color-background-primary: #BEE1E6;
+  --color-background-secondary: #CDDAFD;
+  --color-accent-primary: #FDE2E4;
+  --color-accent-secondary: #DFE7FD;
+  --color-text-primary: #333333;
+  --color-card-primary:#CDDAFD; 
+} 
 html {
     background-color: whitesmoke;
     font-size: 0.95em;
