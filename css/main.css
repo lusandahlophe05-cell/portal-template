@@ -8,15 +8,15 @@
   --color-card-primary:#CDDAFD; 
 } 
 html {
-    background-color: whitesmoke;
+    background-color: var(--color-background-primary);
     font-size: 0.95em;
 }
 
 body {
     font-family: system-ui, -apple-system, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: var(--color-background-secondary);
+    color: var(--color-text-primary);
     margin: 0 auto;
     padding: 20px;
     max-width:1200px;
