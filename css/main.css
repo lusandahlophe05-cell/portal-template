@@ -24,19 +24,19 @@ body {
   }
 
 ::selection {
-    color: #000; 
-    background: #ff0;
+    color: var(--color-text-primary); 
+    background: var(--color-background-secondary);
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: var(--color-background-secondary);
     line-height: 2.5em;
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: var(--color-background-secondary);
     overflow: auto;
 }
 
@@ -142,8 +142,8 @@ footer {
     flex-direction: row; /* Default layout: Image left, text right */
     align-items: center;
     gap: 30px;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
+    background: var(--color-accent-secondary);
+    border: 1px solid var(--color-background-secondary);
     border-radius: 12px; /* Smooth rounded corners */
     padding: 24px;
     margin-bottom: 30px;
@@ -170,7 +170,7 @@ footer {
     height: 150px;
     object-fit: cover; /* Forces screenshots to crop nicely instead of squishing */
     border-radius: 8px;
-    border: 1px solid #cbd5e1;
+    border: 1px solid var(--color-text-primary);
   }
   
   /* Content & CTA Link Elements */
@@ -180,7 +180,7 @@ footer {
   
   .project-content h2 {
     margin-top: 0;
-    color: #1e293b;
+    color: var(--color-card-primary);
   }
   
   .project-links {
@@ -201,22 +201,22 @@ footer {
   }
   
   .demo-btn {
-    background-color: darkcyan;
-    color: #ffffff;
+    background-color: var(--color-accent-primary);
+    color: var(--color-card-primary);
   }
   
   .demo-btn:hover {
-    background-color: rgb(95, 95, 95);
+    background-color: var(--color-background-secondary);
   }
   
   .repo-btn {
-    background-color: #f1f5f9;
-    color: #334155;
-    border: 1px solid #cbd5e1;
+    background-color: var(--color-background-primary);
+    color: var(--color-card-primary);
+    border: 1px solid var(--color-background-secondary);
   }
   
   .repo-btn:hover {
-    background-color: rgb(95, 95, 95);
+    background-color: var(--color-background-primary);
   }
   
   /* Responsive Overrides: If screen is small, stack everything vertically */
