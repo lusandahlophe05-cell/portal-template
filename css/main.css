@@ -39,7 +39,12 @@ main.wrapper {
     background-color: var(--color-background-secondary);
     overflow: auto;
 }
-
+#main-index{
+  text-align: center;
+  margin:0 auto;
+  padding: 40px;
+  background-image: linear-gradient(to bottom,var(--color-background-primary),var(--color-background-secondary));
+}
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
 }
