@@ -36,6 +36,7 @@ h1 {
 }
 #main-index h1{
   font-size: 55px;
+   background-image: linear-gradient(to top,var(--color-background-secondary),var(--color-background-primary));
 }
 main.wrapper {
     background-color: var(--color-background-secondary);
