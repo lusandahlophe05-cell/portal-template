@@ -34,7 +34,9 @@ h1 {
     background: var(--color-background-secondary);
     line-height: 2.5em;
 }
-
+#main-index h1{
+  font-size: 55px;
+}
 main.wrapper {
     background-color: var(--color-background-secondary);
     overflow: auto;
@@ -43,6 +45,7 @@ main.wrapper {
   text-align: center;
   margin:0 auto;
   padding: 40px;
+  min-height: 100vh;
   background-image: linear-gradient(to bottom,var(--color-background-primary),var(--color-background-secondary));
 }
 p {
