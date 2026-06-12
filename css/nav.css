@@ -55,7 +55,10 @@
 .topnav.responsive a{
     display: inline-block;
 }
-
+#header-index.initials{
+    display: flex;
+    align-items: center;
+}
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
