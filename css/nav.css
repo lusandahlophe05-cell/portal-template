@@ -20,9 +20,6 @@
     background-color: var( --color-background-primary);
 }
 
-.topnav .icon {
-    display: none;
-}
 
 /* Responsive rules - apply when screen width is less than 1200px */
 
@@ -53,7 +50,7 @@
     }
 }
 
-#header-index .topnav a:not(:first-child){
+.topnav a:not(:last-child){
     display:none;
 }
 
