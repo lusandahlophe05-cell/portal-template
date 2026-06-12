@@ -9,14 +9,13 @@
   --color-link-primary: #7A3A42;
 } 
 html {
-    background-color: var(--color-background-primary);
     font-size: 0.95em;
 }
 
 body {
     font-family: system-ui, -apple-system, sans-serif;
     line-height: 1.6;
-    background-color: var(--color-background-secondary);
+    background-image: linear-gradient(to right,var(--color-background-secondary),var(--color-background-primary));
     color: var(--color-text-primary);
     margin: 0 auto;
     padding: 20px;
@@ -39,7 +38,7 @@ h1 {
    background-image: linear-gradient(to top,var(--color-background-secondary),var(--color-background-primary));
 }
 main.wrapper {
-    background-color: var(--color-background-secondary);
+    /*background-color: var(--color-background-secondary);*/
     overflow: auto;
 }
 #main-index{
