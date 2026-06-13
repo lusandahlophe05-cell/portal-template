@@ -11,6 +11,9 @@
 html {
     font-size: 0.95em;
 }
+.initials span{
+        font-size: 3rem;
+}
 
 body {
     font-family: system-ui, -apple-system, sans-serif;
