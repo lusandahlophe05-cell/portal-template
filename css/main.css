@@ -15,7 +15,7 @@ html {
 body {
     font-family: system-ui, -apple-system, sans-serif;
     line-height: 1.6;
-    background-image: linear-gradient(to right,var(--color-background-secondary),var(--color-background-primary));
+    background-color: var(--color-background-secondary);
     color: var(--color-text-primary);
     margin: 0 auto;
     padding: 20px;
