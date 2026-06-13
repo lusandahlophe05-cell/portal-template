@@ -56,8 +56,8 @@ p {
   padding: 40px;
   background-color: var(--color-background-primary);
 }
-#home-pic {
-    width: 1000px;
+.home-pic {
+    width: 600px;
     height: auto;
 }
 h2,h3 {
