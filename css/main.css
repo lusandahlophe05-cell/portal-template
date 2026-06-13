@@ -13,6 +13,9 @@ html {
 }
 .initials span{
         font-size: 3rem;
+        border:var(--color-accent-secondary) ;
+        background-color: var(--color-accent-primary);
+        border-radius: 8px;
 }
 
 body {
